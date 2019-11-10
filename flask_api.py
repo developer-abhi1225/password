@@ -1,6 +1,6 @@
 from flask import Flask, request
-from salt import Salt
-from enc import Pass
+from salt_operations import Salt
+from password_operations import Pass
 
 app = Flask(__name__)
 
